@@ -108,7 +108,7 @@ const Actions = [{
     }]
   },
     {
-    lifeTime: 200,
+    lifeTime: 120,
     texts: [{
         text: 'l',
         hsla: color2
@@ -169,7 +169,7 @@ const Actions = [{
     ]
   },
   {
-    lifeTime: 90,
+    lifeTime: 300,
     func: (width, height) => {
       if(!points3.length){
         const img2 = document.getElementById("tulip2");
